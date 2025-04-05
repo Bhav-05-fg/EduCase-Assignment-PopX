@@ -145,7 +145,7 @@ function SignupScreen({ formData, isFormValid, handleChange, setFormData }) {
                             navigate("/profile", { replace: true });
                         }}
                         disabled={!isFormValid}
-                        className={`absolute text-white bottom-7.5 font-medium text-[16px] w-[335px] h-[46px] rounded-md ${isFormValid ? "bg-[#6C25FF]" : "bg-[#CBCBCB]"
+                        className={`absolute text-white bottom-7.5 font-medium text-[16px] w-[335px] h-[46px] rounded-md hover:opacity-90 active:scale-99 transition-all duration-300 ease-in-out ${isFormValid ? "bg-[#6C25FF]" : "bg-[#CBCBCB]"
                             }`}
                     >
                         Create Account
